@@ -17,3 +17,33 @@ function dogToHumanYears(dogAge) {
 console.log(dogToHumanYears(1)); // 15
 console.log(dogToHumanYears(2)); // 24
 console.log(dogToHumanYears(5)); // 39
+
+
+
+// 2. Complete this function: 
+// Tip Calculator
+// function calculateTip(total, percentage)
+
+function calculateTip(total, percentage) {
+  return total * (percentage / 100);
+}
+
+console.log(calculateTip(100, 15)); // 15
+console.log(calculateTip(250, 20)); // 50
+
+
+
+// 2. Complete this function: 
+// Even or Odd
+// function checkEvenOdd(num)
+
+function checkEvenOdd(num) {
+  if (num % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+console.log(checkEvenOdd(4)); // "Even"
+console.log(checkEvenOdd(7)); // "Odd"
