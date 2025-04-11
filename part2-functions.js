@@ -14,6 +14,6 @@ function dogToHumanYears(dogAge) {
     }
   }
 
-  console.log(dogToHumanYears(1)); // 15
+console.log(dogToHumanYears(1)); // 15
 console.log(dogToHumanYears(2)); // 24
 console.log(dogToHumanYears(5)); // 39
