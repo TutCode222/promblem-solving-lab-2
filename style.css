@@ -1,3 +1,25 @@
 body {
+    margin: auto;
+    width: 800px;
+    border: 2px;
+    padding: 0;
     background-color: rgb(243, 190, 236);
+    text-align: center;
+}
+
+header {
+    padding: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: rgb(185, 2, 161);
+    color: rgb(243, 190, 236);
+    font-size: 25px;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background: rgb(185, 2, 161);
+    color: rgb(243, 190, 236);
+    font-size: 5px;
 }
