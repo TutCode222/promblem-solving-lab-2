@@ -12,3 +12,35 @@ console.log('Updated favorite foods:', favoriteFoods);
 
 
 // PROBLEM #2
+// 1. Create an array with a list of guests
+let guestList = ["Micheal", "Tuscaney", "Devin Jr.", "Keemi"];
+
+console.log("Original guest list:", guestList);
+
+// 2. Remove the first guest using .shift()
+let removedGuest = guestList.shift();
+console.log(`${removedGuest} can't make it.`);
+
+// 3. Add a new guest at the end using .push()
+guestList.push("Ethan");
+
+console.log("Updated guest list:", guestList);
+
+// 4. Log how many guests are coming (.length)
+console.log("Number of guests coming:", guestList.length);
+
+
+// PROBLEM #3
+// 1. Create an array
+let tasks = ["laundry", "groceries", "coding", "naps"];
+
+// 2. Write a function to print the tasks
+function printTasks() {
+  // 3. Bonus: Number the tasks when logging
+  for (let i = 0; i < tasks.length; i++) {
+    console.log(`${i + 1}. ${tasks[i]}`);
+  }
+}
+
+// Call the function to see the result
+printTasks();
