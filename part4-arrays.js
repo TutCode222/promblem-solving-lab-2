@@ -60,3 +60,18 @@ for (let i = numbers.length - 1; i >= 0; i--) {
 
 // 4. Log the result
 console.log(reversedNumbers);
+
+
+//BONUS
+function randomLunch(lunches) {
+    // Get a random index from 0 to lunches.length - 1
+    let randomIndex = Math.floor(Math.random() * lunches.length);
+    // Return the lunch option at that random index
+    return lunches[randomIndex];
+  }
+  
+  // Example array of lunch options
+  let lunches = ["leftovers", "breakfast food", "sandwich", "ramen"];
+  
+  // Call the function and log the result
+  console.log(randomLunch(lunches));
