@@ -46,3 +46,17 @@ function printTasks() {
 printTasks();
 
 
+// PROBLEM #4
+// 1. Create the array
+let numbers = [1, 2, 3, 4, 5];
+
+// 2. Create an empty array to store the reversed numbers
+let reversedNumbers = [];
+
+// 3. Loop through the original array from the end to the start
+for (let i = numbers.length - 1; i >= 0; i--) {
+  reversedNumbers.push(numbers[i]);
+}
+
+// 4. Log the result
+console.log(reversedNumbers);
