@@ -22,7 +22,7 @@ let removedGuest = guestList.shift();
 console.log(`${removedGuest} can't make it.`);
 
 // 3. Add a new guest at the end using .push()
-guestList.push("Ethan");
+guestList.push("Sarah");
 
 console.log("Updated guest list:", guestList);
 
